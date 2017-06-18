@@ -18,7 +18,7 @@ return function(Dispatcher $events) {
 //        $slugtify = new \Cocur\Slugify\Slugify();
 //        $text = $slugtify->slugify($text);
 
-        $text = \VuThaiHoc\FlarumVnSlug\Utils::genSlug($text);
+        $text = \GaNuongLaChanh\FlarumVnSlug\Utils::genSlug($text);
 
         $event->discussion->slug = $text;
 
