@@ -26,7 +26,7 @@ Download zip file of this project, after that copy to extensions folder of flaru
  
 By `composer` add
 
-    "vuthaihoc/flarum-vn-slug": "dev-master"
+    "ganuonglachanh/flarum-vn-slug": "dev-master"
     
 after that run
 
@@ -34,7 +34,7 @@ after that run
 
 ### Update from 0.1.0beta4
 
-    composer update vuthaihoc/flarum-vn-slug
+    composer update ganuonglachanh/flarum-vn-slug
     flarum migrate
     
     
