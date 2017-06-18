@@ -8,7 +8,7 @@ return [
         $schema->getConnection()->table('discussions')->chunk(100, function ($discussions) use ($schema) {
             foreach ($discussions as $discussion) {
                 $schema->getConnection()->table('discussions')->where('id', $discussion->id)->update([
-                    'slug' => \VuThaiHoc\FlarumVnSlug\Utils::genSlug($discussion->title)
+                    'slug' => \GaNuongLaChanh\FlarumVnSlug\Utils::genSlug($discussion->title)
                 ]);
             }
         });
