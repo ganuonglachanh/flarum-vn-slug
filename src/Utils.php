@@ -1,12 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: hocvt
- * Date: 5/22/16
- * Time: 18:27
- */
-
-namespace VuThaiHoc\FlarumVnSlug;
+namespace GaNuongLaChanh\FlarumVnSlug;
 
 
 use Cocur\Slugify\Slugify;
