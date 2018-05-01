@@ -10,7 +10,7 @@
       }
     ],
     "require": {
-        "flarum/core": "^0.1.0-beta.5",
+        "flarum/core": "^0.1.0-beta.7",
         "cocur/slugify": "^2.1.1"
     },
     "autoload": {
@@ -22,7 +22,7 @@
         "flarum-extension": {
             "title": "Vietnamese Slug",
             "icon": {
-                "name": "slug",
+                "name": "language",
                 "backgroundColor": "#000",
                 "color": "#87d37c"
             }
